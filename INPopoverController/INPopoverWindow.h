@@ -4,6 +4,7 @@
 //
 
 #import <AppKit/AppKit.h>
+#import <Quartz/Quartz.h>
 #import "INPopoverControllerDefines.h"
 
 /** 
@@ -13,7 +14,7 @@
 @class INPopoverWindowFrame;
 @class INPopoverController;
 
-@interface INPopoverWindow : NSPanel
+@interface INPopoverWindow : NSPanel <CAAnimationDelegate>
 @property (nonatomic, readonly) INPopoverWindowFrame *frameView; // Equivalent to contentView
 @property (nonatomic, assign) INPopoverController *popoverController;
 @property (nonatomic, strong) NSView *popoverContentView;

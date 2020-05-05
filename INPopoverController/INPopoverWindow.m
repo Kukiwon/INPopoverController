@@ -21,7 +21,7 @@
 }
 
 // Borderless, transparent window
-- (id)initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)windowStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)deferCreation
+- (id)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)windowStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)deferCreation
 {
 	if ((self = [super initWithContentRect:contentRect styleMask:NSNonactivatingPanelMask backing:bufferingType defer:deferCreation])) {
 		[self setOpaque:NO];

@@ -8,7 +8,7 @@
 
 @protocol INPopoverControllerDelegate;
 
-@interface INPopoverController : NSObject
+@interface INPopoverController : NSObject <NSFileManagerDelegate>
 
 #pragma mark -
 #pragma mark Properties
