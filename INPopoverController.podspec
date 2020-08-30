@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name					= 'INPopoverController'
-	s.version				= '0.0.2'
+	s.version				= '0.0.3'
 	s.summary				= 'A customizable popover controller for Mac OS X'
 	s.homepage				= 'https://github.com/indragiek/INPopoverController'
 	s.author   				= { 'Indragie Karunaratne' => 'i@indragie.com' }
